@@ -14,14 +14,14 @@ void setup() {
 void draw() {
   background(255);
   //ellipse(x position, y position, width, height)
-  ellipse(x, 300, 50, 50);
+  ellipse(400, x, 50, 50);
 
-  if (x <= 600) {
-    x = x - 1;
-  }
-  if (x >= 595 || x < 0) {
-    x = x + 1;
-  }
+//  if (x <= 600) {
+//    x = x - 1;
+//  }
+//  if (x >= 595 || x < 0) {
+//    x = x + 1;
+//  }
 
   //println("x = " + x);
 }
